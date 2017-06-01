@@ -34,10 +34,10 @@ BinPackArguments: true
 BinPackParameters: true
 ColumnLimit: 0
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
-DerivePointerAlignment: false
+DerivePointerAlignment: true
 ExperimentalAutoDetectBinPacking: false
 IndentCaseLabels: true
-IndentWrappedFunctionNames: false
+IndentWrappedFunctionNames: true
 IndentFunctionDeclarationAfterType: false
 MaxEmptyLinesToKeep: 2
 KeepEmptyLinesAtTheStartOfBlocks: false
