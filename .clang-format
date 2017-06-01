@@ -7,7 +7,7 @@ Language:        Cpp
 # BasedOnStyle:  Google
 AccessModifierOffset: -1
 ConstructorInitializerIndentWidth: 4
-SortIncludes: false
+SortIncludes: true
 
 AlignAfterOpenBracket: true
 AlignEscapedNewlinesLeft: true
@@ -17,10 +17,10 @@ AlignTrailingComments: true
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false
 AllowShortCaseLabelsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: true
-AllowShortIfStatementsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
-AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
 
 AlwaysBreakAfterDefinitionReturnType: false
 AlwaysBreakTemplateDeclarations: false
@@ -86,5 +86,10 @@ CommentPragmas:  '^ IWYU pragma:'
 ForEachMacros:   [ foreach, Q_FOREACH, BOOST_FOREACH ]
 SpaceBeforeParens: ControlStatements
 DisableFormat:   false
+
+# custom by zvving
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+
 ...
 
